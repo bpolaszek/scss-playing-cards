@@ -1,0 +1,28 @@
+// Colors
+$pl-background: #fff;
+$pl-background-flipped: radial-gradient(circle, rgba(35, 140, 60, 1) 0%, rgba(22, 85, 37, 1) 45%);
+
+// Font
+$pl-font-family: monospace, sans-serif;
+$pl-font-size: 1.2em;
+$pl-font-weight: normal;
+
+// Widths
+$pl-card-ratio: 3/4; // To compute height automatically
+$pl-card-heights: (
+        sm: 4em,
+        md: 8em,
+        lg: 12em,
+        xl: 16em,
+);
+$pl-card-default-size: md;
+
+// Border
+$pl-border: 1px solid #666;
+
+// Radius
+$pl-border-radius: 0.3em;
+
+// Shadow
+$pl-box-shadow: .1em .1em .3em #333;
+

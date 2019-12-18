@@ -1,0 +1,116 @@
+%pl-border-radius {
+  border-radius: $pl-border-radius;
+  -moz-border-radius: $pl-border-radius;
+  -webkit-border-radius: $pl-border-radius;
+}
+
+%pl-box-shadow {
+  -moz-box-shadow: $pl-box-shadow;
+  -webkit-box-shadow: $pl-box-shadow;
+  box-shadow: $pl-box-shadow;
+}
+
+// Reset default styles for multiple cards
+ul.pl-cards
+{
+  margin:0;
+  padding: 0;
+  text-indent: 0;
+  list-style-type: none;
+}
+
+@mixin compute-card-size($size: $pl-card-default-size) {
+  $pl-card-height: map-get($pl-card-heights, $size);
+  $pl-card-width: $pl-card-height * $pl-card-ratio;
+  height: $pl-card-height;
+  width: $pl-card-width;
+}
+
+@mixin guess-card-size($size: $pl-card-default-size) {
+  @include compute-card-size();
+
+  .pl-cards-sm & {
+    @include compute-card-size(sm);
+  }
+
+  .pl-cards-md & {
+    @include compute-card-size(md);
+  }
+
+  .pl-cards-lg & {
+    @include compute-card-size(lg);
+  }
+
+  .pl-cards-xl & {
+    @include compute-card-size(xl);
+  }
+
+  &.pl-card-sm {
+    @include compute-card-size(sm);
+  }
+
+  &.pl-card-md {
+    @include compute-card-size(md);
+  }
+
+  &.pl-card-lg {
+    @include compute-card-size(lg);
+  }
+
+  &.pl-card-xl {
+    @include compute-card-size(xl);
+  }
+
+  .pl-cards-stacked & {
+    &.pl-card:not(:first-child) {
+      $pl-card-height: map-get($pl-card-heights, $size);
+      $pl-card-width: $pl-card-height * $pl-card-ratio;
+      margin-left: -($pl-card-width * 0.9);
+    }
+  }
+}
+
+.pl-card {
+  @extend %pl-border-radius, %pl-box-shadow;
+  @include guess-card-size();
+  display: inline-block;
+  position: relative;
+  border: $pl-border;
+  font-size: $pl-font-size;
+  font-weight: $pl-font-weight;
+  font-family: $pl-font-family;
+  background-color: $pl-background;
+
+  &.flipped {
+    background: $pl-background-flipped;
+  }
+
+  &.selectable:not(.disabled) {
+    cursor: pointer;
+  }
+
+  &.disabled {
+    opacity: 0.3;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  &:not(.flipped) {
+
+    &:after {
+      display: block;
+      content: '';
+      position: absolute;
+      top: 1%;
+      bottom: 1%;
+      left: 3%;
+      right: 3%;
+      background-size: cover;
+    }
+
+
+  }
+
+}
+
+

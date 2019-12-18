@@ -1,0 +1,17 @@
+{
+  "name": "scss-playing-cards",
+  "version": "1.0.0",
+  "description": "52 SCSS cards with SVG backgrounds.",
+  "author": "Beno!t POLASZEK <bpolaszek@gmail.com>",
+  "license": "LGPL-3.0-or-later",
+  "private": false,
+  "dependencies": {
+    "@younestouati/playing-cards-standard-deck": "^6.0.0"
+  },
+  "devDependencies": {
+    "@symfony/webpack-encore": "^0.28.2",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^7.0.1",
+    "url-loader": "^2.0.1"
+  }
+}

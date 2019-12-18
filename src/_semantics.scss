@@ -1,0 +1,323 @@
+@import "backgrounds";
+
+.pl-card {
+  &:not(.flipped) {
+    &.pl-card.ace-of-clubs {
+      &:after {
+        @extend %card-1c;
+      }
+    }
+
+    &.pl-card.ace-of-diamonds {
+      &:after {
+        @extend %card-1d;
+      }
+    }
+
+    &.pl-card.ace-of-hearts {
+      &:after {
+        @extend %card-1h;
+      }
+    }
+
+    &.pl-card.ace-of-spades {
+      &:after {
+        @extend %card-1s;
+      }
+    }
+
+    &.pl-card.two-of-clubs {
+      &:after {
+        @extend %card-2c;
+      }
+    }
+
+    &.pl-card.two-of-diamonds {
+      &:after {
+        @extend %card-2d;
+      }
+    }
+
+    &.pl-card.two-of-hearts {
+      &:after {
+        @extend %card-2h;
+      }
+    }
+
+    &.pl-card.two-of-spades {
+      &:after {
+        @extend %card-2s;
+      }
+    }
+
+    &.pl-card.three-of-clubs {
+      &:after {
+        @extend %card-3c;
+      }
+    }
+
+    &.pl-card.three-of-diamonds {
+      &:after {
+        @extend %card-3d;
+      }
+    }
+
+    &.pl-card.three-of-hearts {
+      &:after {
+        @extend %card-3h;
+      }
+    }
+
+    &.pl-card.three-of-spades {
+      &:after {
+        @extend %card-3s;
+      }
+    }
+
+    &.pl-card.four-of-clubs {
+      &:after {
+        @extend %card-4c;
+      }
+    }
+
+    &.pl-card.four-of-diamonds {
+      &:after {
+        @extend %card-4d;
+      }
+    }
+
+    &.pl-card.four-of-hearts {
+      &:after {
+        @extend %card-4h;
+      }
+    }
+
+    &.pl-card.four-of-spades {
+      &:after {
+        @extend %card-4s;
+      }
+    }
+
+    &.pl-card.five-of-clubs {
+      &:after {
+        @extend %card-5c;
+      }
+    }
+
+    &.pl-card.five-of-diamonds {
+      &:after {
+        @extend %card-5d;
+      }
+    }
+
+    &.pl-card.five-of-hearts {
+      &:after {
+        @extend %card-5h;
+      }
+    }
+
+    &.pl-card.five-of-spades {
+      &:after {
+        @extend %card-5s;
+      }
+    }
+
+    &.pl-card.six-of-clubs {
+      &:after {
+        @extend %card-6c;
+      }
+    }
+
+    &.pl-card.six-of-diamonds {
+      &:after {
+        @extend %card-6d;
+      }
+    }
+
+    &.pl-card.six-of-hearts {
+      &:after {
+        @extend %card-6h;
+      }
+    }
+
+    &.pl-card.six-of-spades {
+      &:after {
+        @extend %card-6s;
+      }
+    }
+
+    &.pl-card.seven-of-clubs {
+      &:after {
+        @extend %card-7c;
+      }
+    }
+
+    &.pl-card.seven-of-diamonds {
+      &:after {
+        @extend %card-7d;
+      }
+    }
+
+    &.pl-card.seven-of-hearts {
+      &:after {
+        @extend %card-7h;
+      }
+    }
+
+    &.pl-card.seven-of-spades {
+      &:after {
+        @extend %card-7s;
+      }
+    }
+
+    &.pl-card.eight-of-clubs {
+      &:after {
+        @extend %card-8c;
+      }
+    }
+
+    &.pl-card.eight-of-diamonds {
+      &:after {
+        @extend %card-8d;
+      }
+    }
+
+    &.pl-card.eight-of-hearts {
+      &:after {
+        @extend %card-8h;
+      }
+    }
+
+    &.pl-card.eight-of-spades {
+      &:after {
+        @extend %card-8s;
+      }
+    }
+
+    &.pl-card.nine-of-clubs {
+      &:after {
+        @extend %card-9c;
+      }
+    }
+
+    &.pl-card.nine-of-diamonds {
+      &:after {
+        @extend %card-9d;
+      }
+    }
+
+    &.pl-card.nine-of-hearts {
+      &:after {
+        @extend %card-9h;
+      }
+    }
+
+    &.pl-card.nine-of-spades {
+      &:after {
+        @extend %card-9s;
+      }
+    }
+
+    &.pl-card.ten-of-clubs {
+      &:after {
+        @extend %card-10c;
+      }
+    }
+
+    &.pl-card.ten-of-diamonds {
+      &:after {
+        @extend %card-10d;
+      }
+    }
+
+    &.pl-card.ten-of-hearts {
+      &:after {
+        @extend %card-10h;
+      }
+    }
+
+    &.pl-card.ten-of-spades {
+      &:after {
+        @extend %card-10s;
+      }
+    }
+
+    &.pl-card.jack-of-clubs {
+      &:after {
+        @extend %card-11c;
+      }
+    }
+
+    &.pl-card.jack-of-diamonds {
+      &:after {
+        @extend %card-11d;
+      }
+    }
+
+    &.pl-card.jack-of-hearts {
+      &:after {
+        @extend %card-11h;
+      }
+    }
+
+    &.pl-card.jack-of-spades {
+      &:after {
+        @extend %card-11s;
+      }
+    }
+
+    &.pl-card.queen-of-clubs {
+      &:after {
+        @extend %card-12c;
+      }
+    }
+
+    &.pl-card.queen-of-diamonds {
+      &:after {
+        @extend %card-12d;
+      }
+    }
+
+    &.pl-card.queen-of-hearts {
+      &:after {
+        @extend %card-12h;
+      }
+    }
+
+    &.pl-card.queen-of-spades {
+      &:after {
+        @extend %card-12s;
+      }
+    }
+
+    &.pl-card.king-of-clubs {
+      &:after {
+        @extend %card-13c;
+      }
+    }
+
+    &.pl-card.king-of-diamonds {
+      &:after {
+        @extend %card-13d;
+      }
+    }
+
+    &.pl-card.king-of-hearts {
+      &:after {
+        @extend %card-13h;
+      }
+    }
+
+    &.pl-card.king-of-spades {
+      &:after {
+        @extend %card-13s;
+      }
+    }
+
+    &.pl-card[data-rank='0'] {
+      &:after {
+        @extend %card-joker;
+      }
+    }
+  }
+}

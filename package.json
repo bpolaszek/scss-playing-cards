@@ -13,5 +13,7 @@
     "node-sass": "^4.13.0",
     "sass-loader": "^7.0.1",
     "url-loader": "^2.0.1"
-  }
+  },
+  "style": "dist/css-cards.css",
+  "sass": "src/css-cards.scss"
 }

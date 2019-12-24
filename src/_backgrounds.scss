@@ -1,53 +1,211 @@
-%card-1c { background-image: url("~@younestouati/playing-cards-standard-deck/cards/1c.svg"); }
-%card-1d { background-image: url("~@younestouati/playing-cards-standard-deck/cards/1d.svg"); }
-%card-1h { background-image: url("~@younestouati/playing-cards-standard-deck/cards/1h.svg"); }
-%card-1s { background-image: url("~@younestouati/playing-cards-standard-deck/cards/1s.svg"); }
-%card-2c { background-image: url("~@younestouati/playing-cards-standard-deck/cards/2c.svg"); }
-%card-2d { background-image: url("~@younestouati/playing-cards-standard-deck/cards/2d.svg"); }
-%card-2h { background-image: url("~@younestouati/playing-cards-standard-deck/cards/2h.svg"); }
-%card-2s { background-image: url("~@younestouati/playing-cards-standard-deck/cards/2s.svg"); }
-%card-3c { background-image: url("~@younestouati/playing-cards-standard-deck/cards/3c.svg"); }
-%card-3d { background-image: url("~@younestouati/playing-cards-standard-deck/cards/3d.svg"); }
-%card-3h { background-image: url("~@younestouati/playing-cards-standard-deck/cards/3h.svg"); }
-%card-3s { background-image: url("~@younestouati/playing-cards-standard-deck/cards/3s.svg"); }
-%card-4c { background-image: url("~@younestouati/playing-cards-standard-deck/cards/4c.svg"); }
-%card-4d { background-image: url("~@younestouati/playing-cards-standard-deck/cards/4d.svg"); }
-%card-4h { background-image: url("~@younestouati/playing-cards-standard-deck/cards/4h.svg"); }
-%card-4s { background-image: url("~@younestouati/playing-cards-standard-deck/cards/4s.svg"); }
-%card-5c { background-image: url("~@younestouati/playing-cards-standard-deck/cards/5c.svg"); }
-%card-5d { background-image: url("~@younestouati/playing-cards-standard-deck/cards/5d.svg"); }
-%card-5h { background-image: url("~@younestouati/playing-cards-standard-deck/cards/5h.svg"); }
-%card-5s { background-image: url("~@younestouati/playing-cards-standard-deck/cards/5s.svg"); }
-%card-6c { background-image: url("~@younestouati/playing-cards-standard-deck/cards/6c.svg"); }
-%card-6d { background-image: url("~@younestouati/playing-cards-standard-deck/cards/6d.svg"); }
-%card-6h { background-image: url("~@younestouati/playing-cards-standard-deck/cards/6h.svg"); }
-%card-6s { background-image: url("~@younestouati/playing-cards-standard-deck/cards/6s.svg"); }
-%card-7c { background-image: url("~@younestouati/playing-cards-standard-deck/cards/7c.svg"); }
-%card-7d { background-image: url("~@younestouati/playing-cards-standard-deck/cards/7d.svg"); }
-%card-7h { background-image: url("~@younestouati/playing-cards-standard-deck/cards/7h.svg"); }
-%card-7s { background-image: url("~@younestouati/playing-cards-standard-deck/cards/7s.svg"); }
-%card-8c { background-image: url("~@younestouati/playing-cards-standard-deck/cards/8c.svg"); }
-%card-8d { background-image: url("~@younestouati/playing-cards-standard-deck/cards/8d.svg"); }
-%card-8h { background-image: url("~@younestouati/playing-cards-standard-deck/cards/8h.svg"); }
-%card-8s { background-image: url("~@younestouati/playing-cards-standard-deck/cards/8s.svg"); }
-%card-9c { background-image: url("~@younestouati/playing-cards-standard-deck/cards/9c.svg"); }
-%card-9d { background-image: url("~@younestouati/playing-cards-standard-deck/cards/9d.svg"); }
-%card-9h { background-image: url("~@younestouati/playing-cards-standard-deck/cards/9h.svg"); }
-%card-9s { background-image: url("~@younestouati/playing-cards-standard-deck/cards/9s.svg"); }
-%card-10c { background-image: url("~@younestouati/playing-cards-standard-deck/cards/10c.svg"); }
-%card-10d { background-image: url("~@younestouati/playing-cards-standard-deck/cards/10d.svg"); }
-%card-10h { background-image: url("~@younestouati/playing-cards-standard-deck/cards/10h.svg"); }
-%card-10s { background-image: url("~@younestouati/playing-cards-standard-deck/cards/10s.svg"); }
-%card-11c { background-image: url("~@younestouati/playing-cards-standard-deck/cards/11c.svg"); }
-%card-11d { background-image: url("~@younestouati/playing-cards-standard-deck/cards/11d.svg"); }
-%card-11h { background-image: url("~@younestouati/playing-cards-standard-deck/cards/11h.svg"); }
-%card-11s { background-image: url("~@younestouati/playing-cards-standard-deck/cards/11s.svg"); }
-%card-12c { background-image: url("~@younestouati/playing-cards-standard-deck/cards/12c.svg"); }
-%card-12d { background-image: url("~@younestouati/playing-cards-standard-deck/cards/12d.svg"); }
-%card-12h { background-image: url("~@younestouati/playing-cards-standard-deck/cards/12h.svg"); }
-%card-12s { background-image: url("~@younestouati/playing-cards-standard-deck/cards/12s.svg"); }
-%card-13c { background-image: url("~@younestouati/playing-cards-standard-deck/cards/13c.svg"); }
-%card-13d { background-image: url("~@younestouati/playing-cards-standard-deck/cards/13d.svg"); }
-%card-13h { background-image: url("~@younestouati/playing-cards-standard-deck/cards/13h.svg"); }
-%card-13s { background-image: url("~@younestouati/playing-cards-standard-deck/cards/13s.svg"); }
-%card-joker { background-image: url("~@younestouati/playing-cards-standard-deck/cards/joker.svg"); }
+%card-1c {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/1c.svg");
+}
+
+%card-1d {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/1d.svg");
+}
+
+%card-1h {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/1h.svg");
+}
+
+%card-1s {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/1s.svg");
+}
+
+%card-2c {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/2c.svg");
+}
+
+%card-2d {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/2d.svg");
+}
+
+%card-2h {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/2h.svg");
+}
+
+%card-2s {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/2s.svg");
+}
+
+%card-3c {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/3c.svg");
+}
+
+%card-3d {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/3d.svg");
+}
+
+%card-3h {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/3h.svg");
+}
+
+%card-3s {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/3s.svg");
+}
+
+%card-4c {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/4c.svg");
+}
+
+%card-4d {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/4d.svg");
+}
+
+%card-4h {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/4h.svg");
+}
+
+%card-4s {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/4s.svg");
+}
+
+%card-5c {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/5c.svg");
+}
+
+%card-5d {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/5d.svg");
+}
+
+%card-5h {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/5h.svg");
+}
+
+%card-5s {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/5s.svg");
+}
+
+%card-6c {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/6c.svg");
+}
+
+%card-6d {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/6d.svg");
+}
+
+%card-6h {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/6h.svg");
+}
+
+%card-6s {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/6s.svg");
+}
+
+%card-7c {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/7c.svg");
+}
+
+%card-7d {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/7d.svg");
+}
+
+%card-7h {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/7h.svg");
+}
+
+%card-7s {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/7s.svg");
+}
+
+%card-8c {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/8c.svg");
+}
+
+%card-8d {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/8d.svg");
+}
+
+%card-8h {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/8h.svg");
+}
+
+%card-8s {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/8s.svg");
+}
+
+%card-9c {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/9c.svg");
+}
+
+%card-9d {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/9d.svg");
+}
+
+%card-9h {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/9h.svg");
+}
+
+%card-9s {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/9s.svg");
+}
+
+%card-10c {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/10c.svg");
+}
+
+%card-10d {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/10d.svg");
+}
+
+%card-10h {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/10h.svg");
+}
+
+%card-10s {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/10s.svg");
+}
+
+%card-11c {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/11c.svg");
+}
+
+%card-11d {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/11d.svg");
+}
+
+%card-11h {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/11h.svg");
+}
+
+%card-11s {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/11s.svg");
+}
+
+%card-12c {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/12c.svg");
+}
+
+%card-12d {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/12d.svg");
+}
+
+%card-12h {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/12h.svg");
+}
+
+%card-12s {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/12s.svg");
+}
+
+%card-13c {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/13c.svg");
+}
+
+%card-13d {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/13d.svg");
+}
+
+%card-13h {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/13h.svg");
+}
+
+%card-13s {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/13s.svg");
+}
+
+%card-joker {
+  background-image: url("~@younestouati/playing-cards-standard-deck/cards/joker.svg");
+}

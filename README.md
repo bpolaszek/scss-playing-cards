@@ -25,7 +25,7 @@ With data-attributes:
 <!-- or also -->
 <div class="pl-card" data-rank="14" data-suit="♣"></div>
 <!-- or even -->
-<div class="pl-card" data-rank="A" data-suit="♣"></div>
+<div class="pl-card" data-rank="A" data-suit="♣️"></div>
 ```
 
 ### Sizing

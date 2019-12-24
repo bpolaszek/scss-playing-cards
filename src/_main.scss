@@ -11,9 +11,8 @@
 }
 
 // Reset default styles for multiple cards
-ul.pl-cards
-{
-  margin:0;
+ul.pl-cards {
+  margin: 0;
   padding: 0;
   text-indent: 0;
   list-style-type: none;
@@ -61,13 +60,6 @@ ul.pl-cards
     @include compute-card-size(xl);
   }
 
-  .pl-cards-stacked & {
-    &.pl-card:not(:first-child) {
-      $pl-card-height: map-get($pl-card-heights, $size);
-      $pl-card-width: $pl-card-height * $pl-card-ratio;
-      margin-left: -($pl-card-width * 0.9);
-    }
-  }
 }
 
 .pl-card {
@@ -96,7 +88,6 @@ ul.pl-cards
   }
 
   &:not(.flipped) {
-
     &:after {
       display: block;
       content: '';
@@ -107,10 +98,7 @@ ul.pl-cards
       right: 3%;
       background-size: cover;
     }
-
-
   }
-
 }
 
 

@@ -26,3 +26,107 @@ $pl-border-radius: 0.3em;
 // Shadow
 $pl-box-shadow: .1em .1em .3em #333;
 
+$pl-spades: (
+        'S',
+        'spades',
+        '️️♠',
+        '♠️',
+);
+$pl-hearts: (
+        'H',
+        'hearts',
+        '♥',
+        '♥️',
+);
+$pl-diamonds: (
+        'D',
+        'diams',
+        '♦',
+        '♦️',
+);
+$pl-clubs: (
+        'C',
+        'clubs',
+        '♣',
+        '♣️',
+);
+$pl-rank-ace: (
+        'A',
+        'Ace',
+        14,
+        1,
+);
+$pl-rank-king: (
+        'K',
+        'King',
+        13,
+);
+$pl-rank-queen: (
+        'Q',
+        'Queen',
+        12,
+);
+$pl-rank-jack: (
+        'J',
+        'Jack',
+        11,
+);
+$pl-rank-ten:(
+        10,
+        'Ten',
+);
+$pl-rank-nine: (
+        9,
+        'Nine',
+);
+$pl-rank-eight: (
+        8,
+        'Eight',
+);
+$pl-rank-seven: (
+        7,
+        'Seven',
+);
+$pl-rank-six: (
+        6,
+        'Six',
+);
+$pl-rank-five: (
+        5,
+        'Five',
+);
+$pl-rank-four: (
+        4,
+        'Four',
+);
+$pl-rank-three: (
+        3,
+        'Three',
+);
+$pl-rank-two: (
+        2,
+        'Two',
+);
+
+$pl-suits: (
+        s: $pl-spades,
+        h: $pl-hearts,
+        d: $pl-diamonds,
+        c: $pl-clubs,
+);
+$pl-ranks: (
+        1: $pl-rank-ace,
+        2: $pl-rank-two,
+        3: $pl-rank-three,
+        4: $pl-rank-four,
+        5: $pl-rank-five,
+        6: $pl-rank-six,
+        7: $pl-rank-seven,
+        8: $pl-rank-eight,
+        9: $pl-rank-nine,
+        10: $pl-rank-ten,
+        11: $pl-rank-jack,
+        12: $pl-rank-queen,
+        13: $pl-rank-king,
+);
+

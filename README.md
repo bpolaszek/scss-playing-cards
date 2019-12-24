@@ -26,6 +26,8 @@ With data-attributes:
 <div class="pl-card" data-rank="14" data-suit="♣"></div>
 <!-- or even -->
 <div class="pl-card" data-rank="A" data-suit="♣️"></div>
+<!-- or just simply -->
+<div class="pl-card" data-rank="Ace" data-suit="Clubs️"></div>
 ```
 
 ### Sizing

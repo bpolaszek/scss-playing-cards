@@ -1,119 +1,115 @@
 // Colors
-$pl-background: #fff;
-$pl-background-flipped: radial-gradient(circle, rgba(35, 140, 60, 1) 0%, rgba(22, 85, 37, 1) 45%);
+$pl-background: #fff !default;
+$pl-background-flipped: radial-gradient(circle, rgba(35, 140, 60, 1) 0%, rgba(22, 85, 37, 1) 45%) !default;
 
-// Font
-$pl-font-family: monospace, sans-serif;
-$pl-font-size: 1.2em;
-$pl-font-weight: normal;
-
-// Widths
-$pl-card-ratio: 3/4; // To compute height automatically
+// Sizes
+$pl-card-ratio: 3/4 !default; // To compute height automatically
 $pl-card-heights: (
         sm: 4em,
         md: 8em,
         lg: 12em,
         xl: 16em,
-);
-$pl-card-default-size: md;
+) !default;
+$pl-card-default-size: md !default;
 
 // Border
-$pl-border: 1px solid #666;
+$pl-border: 1px solid #666 !default;
 
 // Radius
-$pl-border-radius: 0.3em;
+$pl-border-radius: 0.3em !default;
 
 // Shadow
-$pl-box-shadow: .1em .1em .3em #333;
+$pl-box-shadow: .1em .1em .3em #333 !default;
 
+// Dictionnary
 $pl-spades: (
         'S',
         'spades',
         '️️♠',
         '♠️',
-);
+) !default;
 $pl-hearts: (
         'H',
         'hearts',
         '♥',
         '♥️',
-);
+) !default;
 $pl-diamonds: (
         'D',
         'diams',
         '♦',
         '♦️',
-);
+) !default;
 $pl-clubs: (
         'C',
         'clubs',
         '♣',
         '♣️',
-);
+) !default;
 $pl-rank-ace: (
         'A',
         'Ace',
         14,
         1,
-);
+) !default;
 $pl-rank-king: (
         'K',
         'King',
         13,
-);
+) !default;
 $pl-rank-queen: (
         'Q',
         'Queen',
         12,
-);
+) !default;
 $pl-rank-jack: (
         'J',
         'Jack',
         11,
-);
+) !default;
 $pl-rank-ten:(
         10,
         'Ten',
-);
+) !default;
 $pl-rank-nine: (
         9,
         'Nine',
-);
+) !default;
 $pl-rank-eight: (
         8,
         'Eight',
-);
+) !default;
 $pl-rank-seven: (
         7,
         'Seven',
-);
+) !default;
 $pl-rank-six: (
         6,
         'Six',
-);
+) !default;
 $pl-rank-five: (
         5,
         'Five',
-);
+) !default;
 $pl-rank-four: (
         4,
         'Four',
-);
+) !default;
 $pl-rank-three: (
         3,
         'Three',
-);
+) !default;
 $pl-rank-two: (
         2,
         'Two',
-);
+) !default;
 
 $pl-suits: (
         s: $pl-spades,
         h: $pl-hearts,
         d: $pl-diamonds,
         c: $pl-clubs,
-);
+) !default;
 $pl-ranks: (
         1: $pl-rank-ace,
         2: $pl-rank-two,
@@ -128,5 +124,5 @@ $pl-ranks: (
         11: $pl-rank-jack,
         12: $pl-rank-queen,
         13: $pl-rank-king,
-);
+) !default;
 
